@@ -1,18 +1,15 @@
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int i = 0;
+        int i;
         System.out.println("*Simple Calculator*\nFor more info: [!Info]");
         while (true) {
-            char strArray[];
             Scanning pScan = new Scanning();
             if ((i = pScan.ScannInput()) == 1) {
                 break;
             }
             else if (i == 2) {
-                System.out.println("Input format: [1<number<10][sign][1<number<10]\n" +
-                        "Signs: [-],[+],[*],[/]\nExit program: [!Exit]");
+                System.out.println("Input format: [1<number<10][sign][1<number<10]\nSigns: [-],[+],[*],[/]\nExit program: [!Exit]");
             }
             else {
                 Valid pVal = new Valid();
