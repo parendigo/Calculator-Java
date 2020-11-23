@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SimpleCalculator {
+public class Main {
     public static void main(String[] args) {
         int i = 0;
         System.out.println("*Simple Calculator*\nFor more info: [!Info]");
